@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+    <input>
+        <node-files value="traffic_grid.nod.xml"/>
+        <edge-files value="traffic_grid.edg.xml"/>
+    </input>
+    <output>
+        <output-file value="traffic_grid.net.xml"/>
+    </output>
+    <processing>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+    </processing>
+</configuration>

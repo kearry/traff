@@ -1,0 +1,6 @@
+pygame>=2.5.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+traci>=1.18.0  # Python interface for SUMO
+sumolib>=1.18.0  # SUMO library
+lxml>=5.40.0
